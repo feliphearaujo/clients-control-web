@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login de Usuário</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+    
+    <div class="limiter">
+		<div class="container-login">
+			<div class="wrap-login">
+
+				<div class="login-pic js-tilt" data-tilt>
+					<img src="img/logo.webp" alt="img">
+				</div>
+
+				<form method="post" action="controller/usuarioControler.php" class="login-form validate-form">
+					<span class="login-form-title">
+						Login de Usuário
+					</span>
+
+					<div class="wrap-input validate-input">
+						<input class="input" type="text" name="cpf" placeholder="Cpf">
+					</div>
+
+					<div class="wrap-input validate-input">
+						<input class="input" type="text" name="senha" placeholder="Senha">
+					</div>
+					
+					<div class="container-btn">
+						<input type="submit" class="login-btn" value="Login" name="btLogin">
+					</div>
+
+
+					<div>
+						<a class="btn btn-dark" href="cadastrouser.php">
+							Cadastre-se
+						</a>
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
