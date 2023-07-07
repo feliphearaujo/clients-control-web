@@ -1,0 +1,25 @@
+HELLO, Obrigado por acessar ao meu trabalho
+
+Para executar o site você precisa de conexão com internet, devido às folhas de estilo do Bootstrap, um banco de dados, pode ser local, e um servidor que interprete php.
+Recomendo o programa XAMPP.
+
+
+1. Inicie os serviços do Apache e do MySql.
+
+2. Altere as definições do seu banco de dados no arquivo "conexao.php" na pasta config.
+
+3. Execute o codigo "script.sql" que se encontra na pasta "trabalhofinalweb", no gerenciador do banco de dados, como o phpmyadmin.
+
+5. Após isto basta acessar o  site através do localhost/clients-control-web-main.
+
+HELLO, Thank you for accessing my work.
+
+To run the website, you need an internet connection due to the Bootstrap style sheets, a database (which can be local), and a server that interprets PHP. I recommend using the XAMPP program.
+
+1. Start the Apache and MySQL services.
+
+2. Change the settings of your database in the "conexao.php" file located in the config folder.
+
+3. Execute the "script.sql" code found in the "trabalhofinalweb" folder using a database management tool like phpMyAdmin.
+
+4. After that, you can access the website by going to localhost/clients-control-web-main.
